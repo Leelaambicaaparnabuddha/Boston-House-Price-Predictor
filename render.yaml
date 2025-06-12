@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: boston-house-price-predictor
+    env: python
+    buildCommand: poetry install
+    startCommand: python app.py  
+    pythonVersion: 3.11.11
